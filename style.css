@@ -1,0 +1,410 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background:  #3D087B;
+    opacity: 1;
+    font-family: 'Barlow', sans-serif; 
+}
+.container{
+    margin: auto;
+    max-width: 1118px;
+    margin-top: 3rem;
+}
+
+
+.container-1-1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+
+.clock-logo{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+/* .clock-logo-pic{
+    width: 80px;  
+} */
+
+.timeBox-container{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 4rem;
+    margin: auto;
+    height: 130px;
+    width: 536px;
+    border: 1px solid #EDEDED;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.timeSquares{
+    height: 90px;
+    width: 80px;
+    background: #F6E2FF;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+
+
+
+/* #tp{
+    font-size: 36px;
+    text-align: center;
+    color: #8A11BF;
+} */
+.hours{
+    font-size: 36px;
+    text-align: center;
+    color: #8A11BF;
+} 
+
+
+.timeText{
+    font-size: 23px;
+    text-align: center;
+    color: #5F0089;
+}
+
+
+.time{
+    font-size: 23px;
+    font-weight: bold;
+    color: #3D087B;
+    text-align: left;
+    background: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.bg-gradient{
+    background: transparent linear-gradient(161deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    font-size: 36px;
+    color:white;
+}
+
+.colon{
+    font-size: 40px; 
+    color: #8A11BF;
+}
+
+.border-box1{
+    width: 416px;
+    height: 140px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0.71;
+    z-index: -1;
+    top: 3rem;
+}
+
+.border-box2{
+    width: 379px;
+    height: 130px;    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.22;
+    z-index: -2;
+    top: 4.3rem;
+    position:absolute; 
+}
+  
+.scheduleBox{
+    height: 300px;
+    width: 566px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #EDEDED;
+    margin-right: 1rem;
+    padding: 2rem;
+}
+
+.pic{
+    height: 500px;
+    width: 536px;
+    /* margin-left: -50px; */
+    background: #FFFFFF;    
+    border-radius: 10px;
+    border: 1px solid #EDEDED;
+    /* position: relative; */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    position: absolute; 
+     right: 25%;  
+    right: 32vw;
+     /* padding: 100px; */
+}
+
+p{
+    font-size: 30px;
+    color: #8E53F0;
+    text-align: left;    
+    opacity: 1;
+    padding: 1rem;
+    z-index: 1;
+    font-family: 'Pacifico', cursive;
+}
+
+.container-1-2{
+    display: flex;
+    justify-content: left; 
+
+}
+
+.schedule{
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+.welcomeMsg{ */
+.jk{
+
+    width: 566px;
+    height: 77px;
+    background: #5F0089 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    display: flex;
+    text-align: left;
+    align-items:center ;
+}
+
+/* .welcomeMsg div */
+.jk div{
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    opacity: 1;
+    padding: 1rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.partyTime{
+    width: 299px;
+    height: 50px;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.partyTime:hover{
+    background: transparent linear-gradient(-113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+}
+
+.wakeUp{
+    font-size: 1.3rem;
+    color: #3D087B;
+    padding-bottom: 0.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select{
+    width: 281px;
+    height: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    color: #3D087B;
+    font-weight: 600;
+}
+
+.vert-line{
+    height: 40px;
+    border: 1px solid #3D087B;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+
+body{
+        margin: 2px;
+}
+.container-1-1{
+    display: block;
+}
+
+.container-1-2{
+    align-items: center;
+    display: block;
+}
+
+
+.clock-logo{
+    
+    width: 100%;
+
+    
+    
+} 
+.clock-logo-pic{
+    margin:auto; 
+    width: 250px;
+    align-items: center;
+    height: 77px;
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.timeBox-container{
+    margin: auto;
+    width: 350px;
+}
+.hours{
+    font-size: 38px;    
+}
+/* 
+#time-sub{
+    font-size: 18px;   
+} */
+/* .time-line{     
+    display: none;    
+} */
+.bg-gradient{   
+    font-size: 30px;
+}
+
+.time-boxes{   
+    height: 80px;
+}
+
+.timeSquares{
+    height: 80px;
+}
+
+
+.wakeup-time{
+    font-size: 1.2rem;
+}
+
+.schedule{
+    margin: auto;
+}
+
+
+.scheduleBox{   
+    margin: auto;  
+    width:350px; 
+    padding: 1rem;
+    height: fit-content;
+}
+
+select{
+    width: fit-content;
+    height: 45px;
+}
+
+/* wakeUpTime{
+    width: fit-content;
+    height: 45px;
+
+} */
+.jk{
+    width: 350px;
+    margin: auto;
+}
+
+/* #lunch{   
+    padding: 0;
+    margin: auto;
+    margin-right: 0;
+    box-sizing: border-box;
+} */
+.pic{
+    width: 350px;
+    padding: 1rem;
+    height: 400px;;
+    margin: auto;
+    background-size: 90%;
+}
+
+p{
+    font-size: 25px;
+    padding: 0rem;
+}
+
+.partyTime{
+    width: 299px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.clock-logo{
+    margin: auto;
+}
+
+.clock-logo-pic{
+    width: 190px;  
+}
+
+.container{
+    margin: 0;
+}
+
+.border-box1{
+    width: 305px;
+    height: 129px;    
+    top: 7.5rem;
+    position: absolute;
+}
+
+.border-box2{    
+    width: 276px;
+    height: 130px;
+    top: 8rem;
+    position: absolute;
+}
+
+} 
+/* .partyTime{
+    margin: auto;
+} */
+.pic img{
+    width:200px;
+    /* margin:auto; */
+}
+.pic {
+    margin: auto;
+    width: 350px;
+    
+}
