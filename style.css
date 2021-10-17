@@ -5,14 +5,14 @@
 body{
     background:  #3D087B;
     opacity: 1;
-    margin-left: 15%;
+    margin-left: 13%;
     font-family: 'Barlow', sans-serif; 
 }
 .container{
     margin: auto;
     max-width: 1280px;
     margin-top: 3rem;
-    margin-left: 12rem;
+    margin-left: 11rem;
 }
 
 
